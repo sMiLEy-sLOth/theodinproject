@@ -1,0 +1,104 @@
+body{
+	font-family: arial;
+	font-size: small;
+}
+.nav{
+	float:right;
+	display:block;
+	width:400px;
+}
+li{
+	display:inline;
+	list-style: none;
+	opacity:.75;
+	margin-left: 25px;
+}
+.square{
+	width:30px;
+	display:inline-block;
+	height:30px;
+	background-image: url('images/sprite.png');
+	background-size: 528px 68px;
+	background-position: -132px -38px;
+	vertical-align: middle;
+}
+.bell{
+	width:25px;
+	display:inline-block;
+	height:25px;
+	background-color: grey;
+	border-radius: 15px;
+	background-image: url('images/sprite.png');
+	background-size: 528px 68px;
+	background-position: -191px -18px;
+	vertical-align: middle;
+}
+.account{
+	width:32px;
+	display:inline-block;
+	height:32px;
+	border-radius: 25px;
+	background-image: url('images/photo.jpg');
+	vertical-align: middle;
+}
+.google{
+	display:block;
+	width:272px;
+	height:92px;
+	top:25%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 200px;
+}
+.search{
+	width:600px;
+	margin-top: 20px;
+	height: 48px;
+	display:block;
+	border:none;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+	border-radius: 2px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.search img{
+	float:right;
+	width:24px;
+	height: 24px;
+	vertical-align: middle;
+	margin-right: 10px;
+	margin-top:13px;
+}
+.navL{
+	float:left;
+		display:block;
+	width:350px;
+}
+.navR{
+	float:right;
+	display:block;
+	width:350px;
+}
+.foot{
+	position: absolute;
+	bottom: 0px;
+	width:100%;
+	background-color: #f8f8f8;
+	border-top: 1px solid #b5b5b5;
+}
+.luck{
+	display: block;
+	width:300px;
+	height:40px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+}
+.luck ul li{
+	list-style: none;
+	height:38px;
+	margin-left:10px;
+	background-color: #f1f1f1;
+	font-weight: bold;
+	padding: 10px;
+}
